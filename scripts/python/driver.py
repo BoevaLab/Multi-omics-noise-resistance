@@ -82,7 +82,7 @@ def main(
     seed_torch(config.get("random_seed"))
     for cancer in config["datasets"]:
         print(cancer)
-        data_path = f"TCGA/{cancer}_data_complete_modalities_preprocessed.csv"
+        data_path = f"preprocessed/TCGA/{cancer}_data_complete_modalities_preprocessed.csv"
         data = pd.read_csv(
             os.path.join(data_dir, data_path),
             low_memory=False,

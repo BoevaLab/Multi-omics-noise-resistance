@@ -8,7 +8,7 @@ In this project, we were interested in answering two main questions:
 This repo contains code to reproduce all of our experiments, in which we evaluated eight neural multi-omics integration techniques on 17 cancers from TCGA. For further details on the project, please refer to our manuscript.
 
 ## Reproducibility
-To reproduce all of our results, please first download our data and splits [here](placeholder), unzip them and place them in the main repo folder (the resulting folder should be called `data`).
+To reproduce all of our results, please first download our data and splits [here](https://drive.google.com/file/d/1gQkLW-UeWZYylFB08f0TuNw5v8MNA2iL/view?usp=sharing), unzip them and place them in the main repo folder (the resulting folder should be called `data`).
 
 Afterward, you may simply run:
 
@@ -18,8 +18,7 @@ source setup.sh
 
 You may then reproduce all of our experiments by running:
 
-sh
-```
+```sh
 bash run_all.sh
 ```
 
