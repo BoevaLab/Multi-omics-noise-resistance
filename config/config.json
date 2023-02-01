@@ -1,0 +1,37 @@
+{
+    "random_seed": 42,
+    "datasets": [
+        "BLCA",
+        "BRCA",
+        "COAD",
+        "ESCA",
+        "HNSC",
+        "KIRC",
+        "KIRP",
+        "LGG",
+        "LUAD",
+        "PAAD",
+        "SARC",
+        "STAD",
+        "UCEC",
+        "OV",
+        "LIHC",
+        "LUSC",
+        "CESC"
+    ],
+    "n_outer_splits": 5,
+    "n_outer_repetitions": 5,
+    "n_inner_splits": 5,
+    "modality_order": [
+        "clinical",
+        "gex",
+        "rppa",
+        "mirna",
+        "mutation",
+        "meth",
+        "cnv"
+    ],
+    "n_jobs_statistical": 11,
+    "n_jobs_neural": 16,
+    "bf_tuning_rounds": 300
+}

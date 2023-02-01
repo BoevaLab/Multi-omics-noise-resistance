@@ -1,0 +1,14 @@
+# Deprecated files
+*deprecated*
+*_backup*
+
+# R
+.Rproj.user/
+Multi-omics-noise-resistance.Rproj
+
+# Python
+noise_resistance.egg-info
+*__pycache__*
+
+# Mac
+*.DS_Store*
